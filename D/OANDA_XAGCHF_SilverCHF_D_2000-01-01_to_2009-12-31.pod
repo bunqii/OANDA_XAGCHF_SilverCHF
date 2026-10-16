@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_CHF",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_XAGCHF_SilverCHF_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_XAGCHF_SilverCHF_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1259,
+  "first_candle": {
+    "time": 1142719200,
+    "Time": "2006-03-18T22:00:00.000000000Z",
+    "open": 13.3765,
+    "high": 13.3885,
+    "low": 13.3765,
+    "close": 13.3805,
+    "volume": 374
+  },
+  "last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 17.4715,
+    "high": 17.4715,
+    "low": 17.4675,
+    "close": 17.4675,
+    "volume": 2
+  },
+  "csv_file": "OANDA_XAGCHF_SilverCHF_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1259,
+  "csv_first_candle": {
+    "time": 1142719200,
+    "Time": "2006-03-18T22:00:00.000000000Z",
+    "open": 13.3765,
+    "high": 13.3885,
+    "low": 13.3765,
+    "close": 13.3805,
+    "volume": 374
+  },
+  "csv_last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 17.4715,
+    "high": 17.4715,
+    "low": 17.4675,
+    "close": 17.4675,
+    "volume": 2
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:07:20.000000000Z",
+  "generated_at": "2026-10-16T00:07:20.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-18T22:00:00Z",
+        "to": "2019-11-25T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
